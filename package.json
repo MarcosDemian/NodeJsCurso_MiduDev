@@ -1,33 +1,9 @@
 {
-  "name": "nodejscurso_midudev",
-  "version": "1.0.0",
-  "description": "Curso de node dado por Midudev echo por Marcos Garcia en forma de practica",
-  "main": "1.os-info.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarcosDemian/NodeJsCurso_MiduDev.git"
-  },
-  "keywords": [
-    "Node",
-    "Curso",
-    "Midudev",
-    "Marcos",
-    "Garcia",
-    "NodeJS"
-  ],
-  "author": "Marcos Garcia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarcosDemian/NodeJsCurso_MiduDev/issues"
-  },
-  "homepage": "https://github.com/MarcosDemian/NodeJsCurso_MiduDev#readme",
-  "dependencies": {
-    "picocolors": "1.0.1"
-  },
   "devDependencies": {
-    "standard": "^17.1.0"
+    "nodemon": "^3.1.4",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }
